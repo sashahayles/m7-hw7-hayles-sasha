@@ -1,0 +1,16 @@
+Body {
+  text-align: center;
+  margin:5% 0;
+  background-color: skyblue;
+  color:white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+}
