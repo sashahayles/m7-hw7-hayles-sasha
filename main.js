@@ -8,8 +8,8 @@ xmlhttp.onreadystatechange = function() {
     var userCity = document.createTextNode(apiResult.name);
     var userWeather =document.createTextNode(apiResult.weather[0].description);
 
-    var weatherCity = document.getElementById('#Welcome');
-    var weatherTemp =document.getElementById('#current-weather');
+    var weatherCity = document.getElementById('Welcome');
+    var weatherTemp =document.getElementById('current-weather');
 
     //weatherCity.appendChild(userCity);
     //  weatherTemp [1].appendChild(userWeather);
