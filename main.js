@@ -8,11 +8,11 @@ xmlhttp.onreadystatechange = function() {
     var userCity = document.createTextNode(apiResult.name);
     var userWeather =document.createTextNode(apiResult.weather[0].description);
 
-    var weatherCity = document.getElementById('Welcome');
+    var weatherCity = document.getElementById('welcome');
     var weatherTemp =document.getElementById('current-weather');
 
-    //weatherCity.appendChild(userCity);
-    //  weatherTemp [1].appendChild(userWeather);
+     weatherCity.appendChild(userCity);
+     weatherTemp.appendChild(userWeather);
 
 
 
@@ -20,9 +20,9 @@ xmlhttp.onreadystatechange = function() {
 
 
 
-    console.log (apiResult);
-    console.log (apiResult.name);
-    console.log (apiResult.weather);
+  //  console.log (apiResult);
+  //  console.log (apiResult.name);
+  //  console.log (apiResult.weather);
 
   }
 };
